@@ -121,7 +121,7 @@ function changeScreen() {
   if (detachScreen) detachScreen();
   screenIndex = (screenIndex + 1) % screens.length;
   const [id, attach, update, detach] = screens[screenIndex];
-  bg.href = `snoop-bg-${id}.jpg`;
+  bg.href = `snoop-bg-${id}.png`;
   screenId = id;
   attachScreen = attach;
   updateScreen = update;

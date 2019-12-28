@@ -1,5 +1,5 @@
 <svg class="background">
-  <image id="bg" href="snoop-bg-step.jpg" />
+  <image id="bg" href="snoop-bg-step.png" />
 
   <text
     id="clock-hours"
